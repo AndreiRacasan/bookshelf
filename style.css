@@ -1,0 +1,77 @@
+* {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f7ede2;
+  color: #432818;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+input[type='text'] {
+  border: 1px solid #d6c0a9;
+}
+
+input[type='text']:focus {
+  border: 1px solid #f6aa1c;
+}
+
+input[type='submit'],
+input[type='submit']:focus {
+  background-color: #52260b;
+  color: #f6aa1c;
+  border: 1px solid #f6aa1c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+input[type='submit']:hover {
+  background-color: #7e3c13;
+  color: #f6aa1c;
+  border: 1px solid #f6aa1c;
+}
+
+hr {
+  border-top: 1px solid #f6aa1c;
+}
+
+th,
+td {
+  border-bottom: 1px solid #f6aa1c;
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+.success,
+.error {
+  color: #fafafa;
+  padding: 12px 10px;
+  margin: 5px 0 15px 0;
+  border-radius: 3px;
+}
+
+.success {
+  background-color: #2a9d8f;
+}
+
+.error {
+  background-color: #dc2f02;
+}
+
+.delete {
+  color: #be8316;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.delete:hover {
+  color: #7e3c13;
+}
